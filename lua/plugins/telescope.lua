@@ -6,8 +6,7 @@ return {
         "nvim-telescope/telescope-file-browser.nvim",
         "nvim-telescope/telescope-media-files.nvim",
     },
-    -- using opts created too much unnecessary problems
-    config = function()
+    opts = function()
         require('telescope').setup({
             defaults = {
                 mappings = {
