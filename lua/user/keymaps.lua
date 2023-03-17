@@ -41,7 +41,16 @@ map('v', '<', '<gv')
 map('v', '>', '>gv')
 
 -- Telescope
-map('n', '<leader>fe', '<CMD>Telescope file_browser<CR>')
 map('n', '<leader>ff', '<CMD>Telescope find_files<CR>')
 map('n', '<leader>fh', '<CMD>Telescope help_tags<CR>')
 map('n', '<leader>fg', '<CMD>Telescope live_grep<CR>')
+map('n', '<leader>fe', function() 
+    require('telescope').extensions.file_browser.file_browser({
+        path = "%:p:h",
+        respect_gitignore = false,
+        hidden = true,
+        grouped = true,
+        initial_mode = "normal",
+        layout_config = { height = 40 }
+    }) 
+end)
