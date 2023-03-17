@@ -23,6 +23,6 @@ return {
                 },
             } 
         })
-        require("telescope").load_extension('file_browser', 'nvim-telescope/telescope-media-files.nvim')
+        require('telescope').load_extension('file_browser', 'nvim-telescope/telescope-media-files.nvim')
     end
 }
