@@ -39,6 +39,3 @@ map("v", "<A-k>", ":m '<-2<cr>gv=gv")
 -- better indenting
 map("v", "<", "<gv")
 map("v", ">", ">gv")
-
--- Delete a word backwards
-map('n', 'dw', 'vb"_d')
