@@ -31,7 +31,7 @@ return 	{
                         cmp.select_next_item()
                     elseif luasnip.expand_or_jumpable() then
                         luasnip.expand_or_jump()
-                                -- this will auto complete if our cursor in next to a word and we press tab
+                    -- this will auto complete if our cursor in next to a word and we press tab
                     -- elseif has_words_before() then
                     --     cmp.complete()
                     else
