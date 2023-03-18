@@ -20,3 +20,7 @@ My neovim config
     - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
     - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
     - [luasnip-latex-snippets](https://github.com/iurimateus/luasnip-latex-snippets.nvim)
+- [mini](https://github.com/echasnovski/mini.nvim)
+    - [mini.comment](https://github.com/echasnovski/mini.comment)
+    - [mini.surround](https://github.com/echasnovski/mini.surround)
+    - [mini.pairs](https://github.com/echasnovski/mini.pairs)
