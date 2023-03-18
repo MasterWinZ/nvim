@@ -14,6 +14,8 @@ map('n', '<C-l>', '<C-w>l')
 -- Split window
 map('n', '<leader>sp', '<C-w>s')
 map('n', '<leader>vs', '<C-w>v')
+map('n', 'sp', '<C-w>s')
+map('n', 'vs', '<C-w>v')
 
 -- Capitalize
 map('n', 'gu', '~h')
