@@ -25,6 +25,7 @@ My neovim config
     - [mini.surround](https://github.com/echasnovski/mini.surround)
     - [mini.pairs](https://github.com/echasnovski/mini.pairs)
     - [mini.jump2d](https://github.com/echasnovski/mini.jump2d)
+    - [mini.jump](https://github.com/echasnovski/mini.jump)
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [vimtex](https://github.com/lervag/vimtex)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
