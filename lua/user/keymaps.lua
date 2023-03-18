@@ -54,3 +54,8 @@ map('n', '<leader>fe', function()
         layout_config = { height = 40 }
     }) 
 end)
+
+-- Tab
+map('n', '<leader>tn', '<CMD>tabnew<CR>')
+map('n', '<Tab>', '<CMD>tabnext<CR>')
+map('n', '<S-Tab>', '<CMD>tabprevious<CR>')
