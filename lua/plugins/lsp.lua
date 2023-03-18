@@ -1,12 +1,14 @@
 return 	{
-    "williamboman/mason.nvim",
+    'williamboman/mason.nvim',
     dependencies = {
-        "williamboman/mason-lspconfig.nvim",
-        "neovim/nvim-lspconfig",
+        'williamboman/mason-lspconfig.nvim',
+        'neovim/nvim-lspconfig',
     },
     opts = function()
         require('mason').setup()
         require('mason-lspconfig').setup()
+
+        vim.lsp.handlers['textDocument/hover'] = vim.lsp.with(vim.lsp.handlers.hover, {border = 'rounded'})
 
         local on_attach = function(_, _)
             -- Mappings.
