@@ -1,6 +1,6 @@
 local map = vim.keymap.set
 
-vim.g.mapleader = ' ' 
+vim.g.mapleader = ' '
 
 -- jk to exit insert mode
 map('i', 'jk', '<ESC>')
