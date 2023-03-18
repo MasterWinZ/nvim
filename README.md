@@ -25,3 +25,4 @@ My neovim config
     - [mini.surround](https://github.com/echasnovski/mini.surround)
     - [mini.pairs](https://github.com/echasnovski/mini.pairs)
 - [leap](https://github.com/ggandor/leap.nvim)
+- [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
