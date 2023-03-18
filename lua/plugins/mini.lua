@@ -19,4 +19,11 @@ return {
             require('mini.pairs').setup()
         end
     },
+
+    {
+        'echasnovski/mini.jump2d',
+        config = function()
+            require('mini.jump2d').setup()
+        end
+    }
 }
