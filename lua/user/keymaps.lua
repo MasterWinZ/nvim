@@ -44,7 +44,8 @@ map('v', '>', '>gv')
 map('n', '<leader>ff', '<CMD>Telescope find_files<CR>')
 map('n', '<leader>fh', '<CMD>Telescope help_tags<CR>')
 map('n', '<leader>fg', '<CMD>Telescope live_grep<CR>')
-map('n', '<leader>fe', function() 
+map('n', '<leader>fd', '<CMD>Telescope diagnostics<CR>')
+map('n', '<leader>fe', function()
     require('telescope').extensions.file_browser.file_browser({
         path = "%:p:h",
         respect_gitignore = false,
@@ -52,7 +53,7 @@ map('n', '<leader>fe', function()
         grouped = true,
         initial_mode = "normal",
         layout_config = { height = 40 }
-    }) 
+    })
 end)
 
 -- Tab
