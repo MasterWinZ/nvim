@@ -26,3 +26,4 @@ My neovim config
     - [mini.pairs](https://github.com/echasnovski/mini.pairs)
 - [leap](https://github.com/ggandor/leap.nvim)
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
+- [vimtex](https://github.com/lervag/vimtex)
