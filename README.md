@@ -24,3 +24,4 @@ My neovim config
     - [mini.comment](https://github.com/echasnovski/mini.comment)
     - [mini.surround](https://github.com/echasnovski/mini.surround)
     - [mini.pairs](https://github.com/echasnovski/mini.pairs)
+- [leap](https://github.com/ggandor/leap.nvim)
