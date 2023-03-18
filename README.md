@@ -27,3 +27,4 @@ My neovim config
     - [mini.jump2d](https://github.com/echasnovski/mini.jump2d)
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [vimtex](https://github.com/lervag/vimtex)
+- [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
