@@ -15,7 +15,7 @@ map('n', '<C-l>', '<C-w>l')
 map('n', '<leader>sp', '<C-w>s')
 map('n', '<leader>vs', '<C-w>v')
 map('n', 'sp', '<C-w>s')
-map('n', 'vs', '<C-w>v')
+map('n', 'sv', '<C-w>v')
 
 -- Capitalize
 map('n', 'gu', '~h')
@@ -35,8 +35,8 @@ map('n', '<A-j>', '<CMD>m .+1<cr>==')
 map('n', '<A-k>', '<CMD>m .-2<cr>==')
 map('i', '<A-j>', '<ESC><cmd>m .+1<cr>==gi')
 map('i', '<A-k>', '<ESC><cmd>m .-2<cr>==gi')
-map('v', '<A-j>', '<CMD>m ">+1<cr>gv=gv')
-map('v', '<A-k>', '<CMD>m "<-2<cr>gv=gv')
+map('x', '<A-j>', "<CMD>m '>+1<cr>gv-gv")
+map('x', '<A-k>', "<CMD>m '<-2<cr>gv-gv")
 
 -- Better indenting
 map('v', '<', '<gv')
