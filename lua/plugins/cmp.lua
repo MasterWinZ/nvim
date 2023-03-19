@@ -26,6 +26,10 @@ return {
             require('luasnip').config.setup({ history = true })
 
             cmp.setup({
+                window = {
+                    completion = cmp.config.window.bordered(),
+                    documentation = cmp.config.window.bordered(),
+                },
                 snippet = {
                     -- REQUIRED - you must specify a snippet engine
                     expand = function(args)
@@ -35,8 +39,8 @@ return {
                 mapping = cmp.mapping.preset.insert({
                     ['<C-j>'] = cmp.mapping.select_next_item(),
                     ['<C-k>'] = cmp.mapping.select_prev_item(),
-                    ['<C-b>'] = cmp.mapping.scroll_docs(-4),
-                    ['<C-f>'] = cmp.mapping.scroll_docs(4),
+                    ['<A-j>'] = cmp.mapping.scroll_docs(4),
+                    ['<A-k>'] = cmp.mapping.scroll_docs(-4),
                     ['<C-Space>'] = cmp.mapping.complete(),
                     ['<C-e>'] = cmp.mapping.abort(),
                     ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
