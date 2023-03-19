@@ -29,3 +29,4 @@ My neovim config
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [vimtex](https://github.com/lervag/vimtex)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+- [colorizer](https://github.com/norcalli/nvim-colorizer.lua)
