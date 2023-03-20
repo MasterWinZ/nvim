@@ -62,3 +62,8 @@ end)
 map('n', '<leader>tn', '<CMD>tabnew<CR>')
 map('n', '<Tab>', '<CMD>tabnext<CR>')
 map('n', '<S-Tab>', '<CMD>tabprevious<CR>')
+
+-- Terminal
+map('n', '<leader>t', '<CMD>exe v:count1 . "ToggleTerm"<CR>')
+map('n', '<leader>T', '<CMD>terminal<CR>')
+map('n', '<leader>tg', '<CMD>lua _lazygit_toggle()<CR>')
