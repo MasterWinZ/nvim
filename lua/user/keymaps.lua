@@ -75,3 +75,6 @@ map('n', '<leader>bp', '<CMD>bp<CR>')
 map('n', '<leader>t', '<CMD>exe v:count1 . "ToggleTerm"<CR>')
 map('n', '<leader>T', '<CMD>terminal<CR>')
 map('n', '<leader>tg', '<CMD>lua _lazygit_toggle()<CR>')
+
+-- Nabla
+map('n', '<leader>p', '<CMD>lua require("nabla").popup()<CR>')
