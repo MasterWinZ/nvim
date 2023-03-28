@@ -59,9 +59,17 @@ map('n', '<leader>fe', function()
 end)
 
 -- Tab
-map('n', '<leader>tn', '<CMD>tabnew<CR>')
-map('n', '<Tab>', '<CMD>tabnext<CR>')
-map('n', '<S-Tab>', '<CMD>tabprevious<CR>')
+map('n', '<leader>te', '<CMD>tabnew<CR>')
+map('n', '<leader>tc', '<CMD>tabclose<CR>')
+map('n', '<Tab>', '<CMD>tabn<CR>')
+map('n', '<S-Tab>', '<CMD>tabp<CR>')
+map('n', '<leader>tn', '<CMD>tabn<CR>')
+map('n', '<leader>tp', '<CMD>tabp<CR>')
+
+-- Buffer
+map('n', '<leader>bd', '<CMD>bd<CR>')
+map('n', '<leader>bn', '<CMD>bn<CR>')
+map('n', '<leader>bp', '<CMD>bp<CR>')
 
 -- Terminal
 map('n', '<leader>t', '<CMD>exe v:count1 . "ToggleTerm"<CR>')
