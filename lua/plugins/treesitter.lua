@@ -5,9 +5,10 @@ return {
     opts = {
         sync_install = false,
 	auto_install = true,
-        ignore_install = { "latex" },
 	highlight = {
-		enable = true,
+            enable = true,
+            disable = { "latex" },
+            additional_vim_regex_highlighting = { "latex", "markdown" },
 	},
 	autotag = {
     	enable = true,
