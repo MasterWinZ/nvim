@@ -28,5 +28,6 @@ My neovim config
     - [mini.jump](https://github.com/echasnovski/mini.jump)
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [vimtex](https://github.com/lervag/vimtex)
+    - [nabla](https://github.com/jbyuki/nabla.nvim)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 - [colorizer](https://github.com/norcalli/nvim-colorizer.lua)
