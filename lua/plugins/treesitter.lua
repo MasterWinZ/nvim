@@ -5,6 +5,7 @@ return {
     opts = {
         sync_install = false,
 	auto_install = true,
+        ignore_install = { "latex" },
 	highlight = {
 		enable = true,
 	},
