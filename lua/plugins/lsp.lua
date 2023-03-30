@@ -47,5 +47,15 @@ return 	{
             on_attach = on_attach,
             capabilities = capabilities,
         })
-    end
+
+        require('lspconfig').quick_lint_js.setup({
+            on_attach = on_attach,
+            capabilities = capabilities,
+        })
+
+        require('lspconfig').vtsls.setup({
+            on_attach = on_attach,
+            capabilities = capabilities,
+        })
+   end
 }
