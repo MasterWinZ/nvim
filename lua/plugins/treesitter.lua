@@ -11,7 +11,7 @@ return {
             additional_vim_regex_highlighting = { "latex", "markdown" },
 	},
 	autotag = {
-    	enable = true,
+            enable = true,
 	}
     },
     config = function(_, opts)
