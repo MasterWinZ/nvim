@@ -14,7 +14,7 @@ map('n', '<C-l>', '<C-w>l')
 -- Split window
 map('n', '<leader>sp', '<C-w>s')
 map('n', '<leader>vs', '<C-w>v')
-map('n', 'sp', '<C-w>s')
+map('n', 'sh', '<C-w>s')
 map('n', 'sv', '<C-w>v')
 
 -- Capitalize
@@ -31,12 +31,10 @@ map('n', '<C-Right>', '<CMD>vertical resize -2<CR>')
 map('n', '<C-Left>', '<CMD>vertical resize +2<CR>')
 
 -- Move Lines
-map('n', '<A-j>', '<CMD>m .+1<cr>==')
-map('n', '<A-k>', '<CMD>m .-2<cr>==')
-map('i', '<A-j>', '<ESC><cmd>m .+1<cr>==gi')
-map('i', '<A-k>', '<ESC><cmd>m .-2<cr>==gi')
-map('x', '<A-j>', "<CMD>m '>+1<cr>gv-gv")
-map('x', '<A-k>', "<CMD>m '<-2<cr>gv-gv")
+map('n', '<A-j>', '<CMD>m .+1<cr>')
+map('n', '<A-k>', '<CMD>m .-2<cr>')
+map('x', '<A-k>', "<CMD>'<,'>m '<-2<cr>")
+map('x', '<A-j>', "<CMD>'<,'>m '>+1<cr>")
 
 -- Better indenting
 map('v', '<', '<gv')
@@ -48,16 +46,7 @@ map('n', '<leader>fh', '<CMD>Telescope help_tags<CR>')
 map('n', '<leader>fg', '<CMD>Telescope live_grep<CR>')
 map('n', '<leader>fd', '<CMD>Telescope diagnostics<CR>')
 map('n', '<leader>fb', '<CMD>Telescope buffers<CR>')
-map('n', '<leader>fe', function()
-    require('telescope').extensions.file_browser.file_browser({
-        path = "%:p:h",
-        respect_gitignore = false,
-        hidden = true,
-        grouped = true,
-        initial_mode = "normal",
-        layout_config = { height = 40 }
-    })
-end)
+map('n', '<leader>fe', '<CMD>Telescope file_browser<CR>')
 
 -- Tab
 map('n', '<leader>te', '<CMD>tabnew<CR>')
@@ -74,8 +63,6 @@ map('n', '<leader>bp', '<CMD>bp<CR>')
 
 -- Terminal
 map('n', '<leader>t', '<CMD>exe v:count1 . "ToggleTerm"<CR>')
-map('n', '<leader>T', '<CMD>terminal<CR>')
-map('n', '<leader>tg', '<CMD>lua _lazygit_toggle()<CR>')
 
 -- Nabla
 map('n', '<leader>p', '<CMD>lua require("nabla").popup()<CR>')
