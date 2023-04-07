@@ -23,7 +23,11 @@ return {
     {
         'echasnovski/mini.jump2d',
         config = function()
-            require('mini.jump2d').setup()
+            require('mini.jump2d').setup({
+                mappings = {
+                    start_jumping = '<CR>',
+                },
+            })
         end
     },
 
