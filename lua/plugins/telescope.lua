@@ -27,9 +27,7 @@ return {
                 },
 
                 help_tags = {
-                    theme = 'dropdown',
-                    previewer = false,
-                    layout_config = { height = 20 }
+                    theme = 'ivy',
                 },
 
                 buffers = {
@@ -42,17 +40,12 @@ return {
 
                 live_grep = {
                     hidden = true,
-                    theme = 'dropdown',
-                    previewer = false,
-                    layout_config = { height = 20 }
+                    theme = 'ivy',
                 },
 
                 diagnostics = {
-                    hidden = true,
-                    theme = 'dropdown',
+                    theme = 'ivy',
                     initial_mode = 'normal',
-                    previewer = false,
-                    layout_config = { height = 20 }
                 },
             },
             extensions = {
@@ -65,7 +58,7 @@ return {
                     grouped = true,
                     initial_mode = 'normal',
                     previewer = false,
-                    layout_config = { height = 20 }
+                    layout_config = { height = 30 }
                 },
             }
         })
