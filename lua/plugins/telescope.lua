@@ -1,10 +1,11 @@
 return {
     "nvim-telescope/telescope.nvim",
     dependencies = {
+        'nvim-lua/popup.nvim',
         "nvim-lua/plenary.nvim",
         "BurntSushi/ripgrep",
         "nvim-telescope/telescope-file-browser.nvim",
-        "nvim-telescope/telescope-media-files.nvim",
+        -- "nvim-telescope/telescope-media-files.nvim",
     },
     opts = function()
         require('telescope').setup({
@@ -60,8 +61,9 @@ return {
                     previewer = false,
                     layout_config = { height = 30 }
                 },
-            }
+            },
         })
-        require('telescope').load_extension('file_browser', 'nvim-telescope/telescope-media-files.nvim')
+        require('telescope').load_extension('file_browser')
+        -- require('telescope').load_extension('media_files')
     end
 }
