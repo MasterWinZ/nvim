@@ -31,10 +31,10 @@ map('n', '<C-Right>', '<CMD>vertical resize -2<CR>')
 map('n', '<C-Left>', '<CMD>vertical resize +2<CR>')
 
 -- Move Lines
-map('n', '<A-j>', '<CMD>m .+1<cr>')
-map('n', '<A-k>', '<CMD>m .-2<cr>')
-map('x', '<A-k>', "<CMD>'<,'>m '<-2<cr>")
-map('x', '<A-j>', "<CMD>'<,'>m '>+1<cr>")
+-- map('n', '<A-j>', '<CMD>m .+1<cr>')
+-- map('n', '<A-k>', '<CMD>m .-2<cr>')
+-- map('x', '<A-k>', "<CMD>'<,'>m '<-2<cr>")
+-- map('x', '<A-j>', "<CMD>'<,'>m '>+1<cr>")
 
 -- Better indenting
 map('v', '<', '<gv')

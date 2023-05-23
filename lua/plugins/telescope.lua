@@ -19,7 +19,7 @@ return {
             },
             pickers = {
                 find_files = {
-                    hidden = true,
+                    -- hidden = true,
                     theme = 'dropdown',
                     previewer = false,
                     layout_config = { height = 20 }
